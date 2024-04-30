@@ -1,0 +1,27 @@
+Berikan alamat untuk saya menampilkan di web
+ChatGPT
+Untuk mengakses halaman web dengan alamat yang sesuai dengan rute yang telah Anda konfigurasi, Anda perlu menjalankan server pengembangan Laravel terlebih dahulu. Dengan asumsi Anda telah menjalankan server tersebut dengan perintah php artisan serve, Anda dapat mengakses halaman-halaman berikut di peramban web Anda:
+
+Daftar Sekolah: Untuk mengakses daftar sekolah, buka alamat berikut di peramban Anda:
+http://127.0.0.1:8000/schools
+
+Formulir Tambah Sekolah: Untuk mengakses formulir tambah sekolah, buka alamat berikut:
+http://127.0.0.1:8000/schools/create
+
+Daftar Perjanjian: Untuk mengakses daftar perjanjian, gunakan alamat ini:
+http://127.0.0.1:8000/agreements
+
+Formulir Tambah Perjanjian: Untuk mengakses formulir tambah perjanjian, buka alamat ini:
+http://127.0.0.1:8000/agreements/create
+
+Daftar Paket Pembiayaan: Untuk mengakses daftar paket pembiayaan, gunakan alamat berikut:
+http://127.0.0.1:8000/finance-packages
+
+Formulir Tambah Paket Pembiayaan: Untuk mengakses formulir tambah paket pembiayaan, buka alamat ini:
+http://127.0.0.1:8000/finance-packages/create
+
+Formulir Tambah Paket Pembiayaan Sekolah: Untuk mengakses formulir tambah paket pembiayaan sekolah, gunakan alamat ini:
+http://127.0.0.1:8000/schools/{school}/school-finance-packages/create
+
+Formulir Tambah Pembayaran Pembiayaan: Untuk mengakses formulir tambah pembayaran pembiayaan, buka alamat ini:
+http://127.0.0.1:8000/school-finance-packages/{schoolFinancePackage}/finances/create
